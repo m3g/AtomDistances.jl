@@ -1,9 +1,8 @@
 import Pkg; Pkg.activate("ComputeDistances",shared=true)
 #First time only:
-Pkg.add(["Chemfiles", "PDBTools", "Plots","CellListMap","Revise"])
+Pkg.add(["Chemfiles", "PDBTools", "Plots","CellListMap"])
 
 # loading packages
-using Revise
 using LinearAlgebra: norm
 using StaticArrays
 using PDBTools
